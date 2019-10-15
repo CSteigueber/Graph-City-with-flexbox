@@ -1,0 +1,45 @@
+
+.container_body{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+}
+.container_row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.container_columns{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.container_columns img{
+    width: 50%;
+}
+.container_columns_down{
+    padding: 5% 20% 5% 20%;
+}
+header{
+    background-color: black;
+    color: wheat;
+    padding: 4% 0 5% 0;
+    text-align: center;
+}
+.street_txt{
+    font-size: 13px;
+    flex-shrink: 2;
+    text-align: center;
+    padding: 3% 1% 5% 20%;
+    
+}
+.street_img{
+    padding: 3% 10% 5% 1%;
+}
+.street_img img{
+    width: 50%;
+}
+.be_small img{
+    width: 10%;
+}
