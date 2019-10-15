@@ -9,17 +9,24 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    padding: 3% 10% 2% 25%;
 }
 .container_columns{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    color: gray;
+    text-align: center;
+    font-size: 0.9em;
 }
 .container_columns img{
-    width: 50%;
+    width: 70%;
+    align-content: center;
+    justify-content: center;
+    padding: 0 10% 10% 10%;
 }
-.container_columns_down{
-    padding: 5% 20% 5% 20%;
+.padding_down{
+    padding: 0 20% 5% 20%;
 }
 header{
     background-color: black;
@@ -28,18 +35,16 @@ header{
     text-align: center;
 }
 .street_txt{
-    font-size: 13px;
+    font-size: 0.6em;
     flex-shrink: 2;
-    text-align: center;
-    padding: 3% 1% 5% 20%;
-    
+    text-align: center;    
 }
 .street_img{
-    padding: 3% 10% 5% 1%;
+    padding: 0 0 0 5%;
 }
 .street_img img{
     width: 50%;
 }
-.be_small img{
-    width: 10%;
+.be_small{
+    width: 175%;
 }
